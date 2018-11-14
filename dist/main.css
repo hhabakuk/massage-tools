@@ -1,0 +1,31 @@
+#julla2 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #317ae2;
+    border-radius: 50%;
+    transform-origin: 50% 50%;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#julla3 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #317ae2;
+    border-radius: 50%;
+    transform-origin: 50% 50%;
+    transition: width 1s, height 2s;
+}
+#julla3.big {
+    width: 200px;
+    height: 200px;
+}
+
+@keyframes example {
+    0% {transform: scale(0)}
+    100% {transform: scale(1)}
+}
